@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Pacifico&display=swap');
+body {
+    margin: 0;
+    font-family: 'Allison', cursive;
+    font-family: 'Pacifico', cursive;
+    background-color: #EDE9FE;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#output {
+    font-size: 3rem;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #A78BFA;
+    display: block;
+    background-color: #EDE9FE;
+}
+
+#btn-check {
+    padding: 15px;
+    background-color: #8B5CF6;
+    border: 0px;
+    color: white;
+    border-radius: 1rem;
+    font-family: 'Allison', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#credits {
+    margin: 4rem;
+}
