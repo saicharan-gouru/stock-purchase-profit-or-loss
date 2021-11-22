@@ -30,6 +30,11 @@ function clickHandler() {
     var initial = Number(initialPrice.value);
     var quantity = Number(quantityOfStocks.value);
     var current = Number(currentPrice.value);
-    profitOrLoss(initial, quantity, current);
+    if (initial > 0 && quantity > 0 && current > 0)
+        profitOrLoss(initial, quantity, current);
+    else {
+        output.style.color = "black";
+        output.innerText = "All three values should be greater than zero";
+    }
 }
 btnCheck.addEventListener("click", clickHandler);
